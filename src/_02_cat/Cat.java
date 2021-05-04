@@ -25,7 +25,10 @@ public class Cat {
 	Cat(String name) {
 		this.name = name;
 	}
-
+	int getLives() {
+		return lives;
+	}
+	
 	void meow() {
 		System.out.println("meeeeeooooooooooowwwwwwwww!!");
 	}
